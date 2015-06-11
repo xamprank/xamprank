@@ -19,7 +19,7 @@
 var fdsarc_chatFrameName='cboxmain';
 var fdsarc_showOption=true; // true or false (true:tampilkan tombol, false:sembunyikan)
 var fdsarc_loopRefresh;
-fdsarc_creditURL='http://www.betterfreedownload.com/';
+fdsarc_creditURL='#';
 fdsarc_creditText='&copy;F.F.D Team';
 fdsarc_creditTitle='F.F.D Team';
 function fdsarc_refresh() {
@@ -49,13 +49,13 @@ document.write('<sty'+'le>'
 +'#fdsarc_footer a:hover '+'{  } ');
 document.write('</sty'+'le>');
 document.write('<div id="fdsarc_footer">'
-+'<a href="http://www.betterfreedownload.com">Free Full Fownload</a>'
++'<a href="#">Free Full Fownload</a>'
 +'<br/>'
-+'<a href="http://blogandtipsblog.blogspot.com">Blog and Tips Blog</a>'
++'<a href="#">Blog and Tips Blog</a>'
 +'<br/>'
-+'<a href="http://freegamestorage.blogspot.com">Free Games Storage</a>'
++'<a href="#">Free Games Storage</a>'
 +'<br/>'
-+'<a href="http://android-apkfree.blogspot.com">Android APk Free</a>'
++'<a href="#">Android APk Free</a>'
 +'</div>');
 }
 function fdsarc_setOptionOn() {

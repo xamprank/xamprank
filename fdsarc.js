@@ -1,27 +1,6 @@
-// F.F.D Team Script Auto Reload CBox
-// Release date: 2011-09-27
-// More info: http://blogandtipsblog.blogspot.com/
-// user defined variable
-// --------------------------------------------------------------------------------------
-// var fdsarc_timeSet=30;
-// var cboxmain_height=270;
-// var cboxform_height=90;
-// var fdsarc_autoLoad=true;
-// var fdsarc_infoText='Auto-refresh:';
-// var fdsarc_cboxmainID='http://www3.cbox.ws/box/?boxid=3319825&amp;boxtag=9hzp17&amp;sec=main';
-// var fdsarc_cboxformID='http://www3.cbox.ws/box/?boxid=3319825&amp;boxtag=9hzp17&amp;sec=form';
-// var fdsarc_onOptionText='ON';
-// var fdsarc_onOptionTitle='Click to check automatically for new messages';
-// var fdsarc_offOptionText='OFF';
-// var fdsarc_offOptionTitle='Stop automatic checking for new messages';
-// the script
-// --------------------------------------------------------------------------------------
 var fdsarc_chatFrameName='cboxmain';
 var fdsarc_showOption=true; // true or false (true:tampilkan tombol, false:sembunyikan)
 var fdsarc_loopRefresh;
-fdsarc_creditURL='#';
-fdsarc_creditText='&copy;F.F.D Team';
-fdsarc_creditTitle='F.F.D Team';
 function fdsarc_refresh() {
 fdsarc_messageBox=document.getElementsByName(fdsarc_chatFrameName)[0];
 fdsarc_messageBox.src=fdsarc_messageBox.src;
